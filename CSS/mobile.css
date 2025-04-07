@@ -1,6 +1,7 @@
 @media (width <= 767px) {
     main {
-        background: red;
+        background: #f6e54d;
+        height: 88vh;
     }
 
     [ data-form="container-form"] { 
@@ -16,20 +17,29 @@
         row-gap: 7px;
     }
 
-    [ data-form="container-form"] > [data-form="form"] > div {
+    [data-form="container-form"] > [data-form="form"] > div {
         row-gap: 0;
     }
 
-    [ data-form="container-form"] > [data-form="form"] > div > input {
+    [data-form="container-form"] > [data-form="form"] > div > input {
         margin-top: 10px;
         margin-bottom: 5px;
         
+    }[data-form="container-form"] > [data-form="form"] > div > .msg-erro {
+        font-size: 0.8rem;
+        margin-top: 0.5px;
+    }
+
+    main section > [data-form="result"]  {
+        font-size: 0.7rem;
     }
 
     main section > button {
         justify-self: end;
         margin-right: 1rem;
-        padding: 12px 16px;
-        font-size: 0.9rem;
+        padding: 10px 12px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.9px;
     }
 }
