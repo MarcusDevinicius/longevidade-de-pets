@@ -1,0 +1,72 @@
+{
+    "dezmenos": {
+        "um" : 15,
+        "dois": 24,
+        "três": 28,
+        "quatro": 32,
+        "cinco": 36,
+        "seis": 40,
+        "sete": 44,
+        "oito": 48,
+        "nove": 52,
+        "dez": 56,
+        "onze": 60,
+        "doze": 64,
+        "treze": 68,
+        "quartoze": 72,
+        "quinze": 76
+    },
+
+    "dezevintedois": {
+        "um" : 15,
+        "dois": 24,
+        "três": 28,
+        "quatro": 32,
+        "cinco": 36,
+        "seis": 42,
+        "sete": 47,
+        "oito": 51,
+        "nove": 56,
+        "dez": 60,
+        "onze": 65,
+        "doze": 69,
+        "treze": 74,
+        "quartoze": 78,
+        "quinze": 83
+    },
+
+    "vintedoismais": {
+        "um" : 15,
+        "dois": 24,
+        "três": 28,
+        "quatro": 32,
+        "cinco": 36,
+        "seis": 44,
+        "sete": 50,
+        "oito": 55,
+        "nove": 61,
+        "dez": 66,
+        "onze": 72,
+        "doze": 77,
+        "treze": 82,
+        "quartoze": 88,
+        "quinze": 93
+    },
+
+    "gatos": {
+        "um" : 15,
+        "dois": 20,
+        "três": 28,
+        "quatro": 32,
+        "cinco": 36,
+        "seis": 40,
+        "sete": 44,
+        "oito": 48,
+        "nove": 52,
+        "dez": 56,
+        "onze": 60,
+        "doze": 64,
+        "treze": 68,
+        "quartoze": 72
+    }
+}
