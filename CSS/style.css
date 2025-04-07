@@ -98,6 +98,13 @@ main section > [data-form="result"] {
     justify-self: center;
     color: #524a03;
     font-size: 1.2rem;
+    margin-left: 20px;;
+}
+
+main section > form > div > p {
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
 }
 
 main section > button {

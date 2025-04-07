@@ -27,17 +27,18 @@
                 <div data-form="label-input">
                     <label for="nome-pet">Seu Pet:</label>
                     <input type="text" name="nome-pet" id="nome-pet" placeholder="cachorro, gato,..." class="nome-pet">
+                    <p>erro</p>
                 </div>
                 <div data-form="label-input">
                     <label for="idade-pet">Idade:</label>
-                    <input type="number" name="idade-pet" id="idade-pet" placeholder="00" class="idade-pet">
+                    <input type="number" name="idade-pet" id="idade-pet" placeholder="00" class="idade-pet" min="1" max="15">
                 </div>
                 <div data-form="label-input" class="container-peso">
                     <label for="peso-pet">Peso:</label>
                     <input type="number" name="peso-pet" id="peso-pet" placeholder="00kg" class="peso-pet">
                 </div>
             </form>
-            <p data-form="result">resultado</p>
+            <p data-form="result"></p>
             <button data-form="btn-calc">CALCULAR</button>
         </section>
     </main>
