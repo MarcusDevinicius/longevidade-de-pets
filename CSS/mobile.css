@@ -10,7 +10,7 @@
     }
 
     [ data-form="container-form"] > [data-form="form"] {
-        width: 250px;
+        /* width: 250px; */
     }
 
     main section > button {
