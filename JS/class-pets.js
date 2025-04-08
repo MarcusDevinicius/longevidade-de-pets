@@ -72,7 +72,7 @@ export default class PetsIdade {
                     iddDogHuman = jsonContent.dezmenos[iddValueExtenso];
                 } else if(pesoValue >= 10 && pesoValue < 22) {
                     iddDogHuman = jsonContent.dezevintedois[iddValueExtenso];
-                }  else if(numero >= 22) {
+                }  else if(pesoValue >= 22) {
                     iddDogHuman = jsonContent.vintedoismais[iddValueExtenso];
                 }
                 // fazer tratamento de string e retornar nome do 
@@ -85,9 +85,9 @@ export default class PetsIdade {
                 
                 // verificando se é masculino ou feminino, para mudar o pronome
                 if(petValue === 'cão' || petValue === 'cao' || petValue === 'cachorro') {
-                    this.result.innerText = `Seu ${petValueTratado} possui em média ${iddDogHuman} anos em relação aos humanos.`;
+                    this.result.innerText = `A idade do seu ${petValueTratado} equivale a ${iddDogHuman} anos para os humanos.`;
                 } else if(petValue === 'cadela' || petValue === 'cachorra') {
-                    this.result.innerText = `Sua ${petValueTratado} possui em média ${iddDogHuman} anos em relação aos humanos.`;
+                    this.result.innerText = `A idade da sua ${petValueTratado} equivale a ${iddDogHuman} anos para os humanos.`;
                 }
             })
         });
@@ -110,9 +110,9 @@ export default class PetsIdade {
 
                 // verificando se é masculino ou feminino, para mudar o pronome
                 if (petValue === 'gato') {
-                    this.result.innerText = `Seu ${petValueTratado} tem em média ${iddCatHuman} anos em idade de humanos. `
+                    this.result.innerText = `A idade do seu ${petValueTratado} equivale a ${iddCatHuman} anos para os humanos. `
                 } else if(petValue === 'gata') {
-                    this.result.innerText = `Sua ${petValueTratado} tem em média ${iddCatHuman} anos em idade de humanos. `
+                    this.result.innerText = `A idade da sua ${petValueTratado} equivale a ${iddCatHuman} anos para os humanos. `
                 }
             })
         })

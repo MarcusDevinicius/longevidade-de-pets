@@ -10,6 +10,7 @@ body {
 header {
     background: #f6e54d;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 110px;
@@ -19,6 +20,15 @@ header {
 header h1 {
     font-family: "Atma", system-ui;
     color: #524a03;
+}
+
+header h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem ;
+    color: #524a03;
+    text-align: center;
+    margin-top: 5px;
 }
 
 main {
