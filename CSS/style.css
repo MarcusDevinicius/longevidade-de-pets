@@ -125,6 +125,7 @@ main section > button {
     justify-self: center;
     cursor: pointer;
     background: #f5f05f;
+    background: linear-gradient(#f5f05f, #e5c71d);
     color: #524a03;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
@@ -134,7 +135,12 @@ main section > button {
     border: none;
     border-radius: 7px;
     box-shadow: 0 1px 5px -3px rgb(95, 95, 95);
-    
+    transition: all .3s ease-in-out;
+}
+
+main section > button:hover {
+    transform: translate3d(2px, 2px, 0);
+    box-shadow: none;
 }
 /* Espaço para interações CSS - JS */
 

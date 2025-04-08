@@ -37,6 +37,7 @@ export default class PetsIdade {
 
         }
         this.verificarInfo(petValue, idadeValue, pesoValue);
+        this.result.innerText = '';
     }
 
     handleClick() {
