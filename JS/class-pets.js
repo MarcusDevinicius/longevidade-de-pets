@@ -127,13 +127,14 @@ export default class PetsIdade {
             this.result.innerText = '';    
         } if(this.petsCadastrados.includes(petValue)) {
             this.erroPet.innerText = '';
-        } 
+        }
         if(idadeValue < 1 || idadeValue > 15) {
-            this.erroIdd.innerText = 'Os estudos sobre pets demonstram com idades de 1 a 15 anos.'
+            this.erroIdd.innerText = 'Os estudos sobre pets demonstram com idades de 1 a 15 anos.';
             console.log(idadeValue);
         } if(idadeValue > 1 && idadeValue < 16) {
             this.erroIdd.innerText = '';
         }
+
     }
 
 
@@ -141,7 +142,7 @@ export default class PetsIdade {
     // nesse caso o valor da idade 
     // para poder acessar o objeto no arquivo JSON
     numParaExtenso(numero) {
-        const unidades = ['', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove'];
+        const unidades = ['', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove'];
         const menorQueVinte = ['dez', 'onze', 'doze', 'treze', 'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove'];
         if(numero < 10) {
             return unidades[numero];

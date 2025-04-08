@@ -31,14 +31,14 @@
     }
 
     main section > [data-form="result"]  {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     main section > button {
         justify-self: end;
         margin-right: 1rem;
         padding: 10px 12px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 700;
         letter-spacing: 0.9px;
     }
