@@ -31,7 +31,6 @@ export default class PetsIdade {
         const pesoValue = this.petPeso.value;
         if(this.arrayFelino.includes(petValue)) {
             this.containerPeso.classList.add('inativo');
-            console.log('faz parte')
         } else {
             this.containerPeso.classList.remove('inativo');
 
@@ -42,7 +41,7 @@ export default class PetsIdade {
 
     handleClick() {
         const petValue = this.pet.value.toLowerCase().trim();
-        const idadeValue = this.petIdade.value;
+        const idadeValue = Math.floor(this.petIdade.value); // Caso o usuário coloque os meses na idade, essa vai ser arredondada
         const pesoValue = this.petPeso.value;
         // console.log(petValue, idadeValue, pesoValue)
         const iddValueExtenso = this.numParaExtenso(idadeValue);
@@ -124,7 +123,7 @@ export default class PetsIdade {
     // o usuário colocou as informações idade e peso dentro dos limites
     verificarInfo(petValue, idadeValue, pesoValue) {
         if(!this.petsCadastrados.includes(petValue)) {
-            this.erroPet.innerText = 'Ainda não temos dados sobre essa espécie, tente novamente com outro(Cão, gato...).';
+            this.erroPet.innerText = 'Ainda não temos dados sobre essa espécie, selecione outro(Cão, gato...).';
             this.result.innerText = '';    
         } if(this.petsCadastrados.includes(petValue)) {
             this.erroPet.innerText = '';
@@ -134,7 +133,7 @@ export default class PetsIdade {
             console.log(idadeValue);
         } if(idadeValue > 1 && idadeValue < 16) {
             this.erroIdd.innerText = '';
-        }
+        } 
 
     }
 
